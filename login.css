@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("https://img.freepik.com/free-vector/geometric-gradient-futuristic-background_23-2149116406.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+.login-container {
+    position: relative;
+    width: 30%;
+    height: 50%;
+}
+
+.login-box {
+    background-color: #1e1e1e43;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    position: relative;
+    height: 100%;
+    transition: all 0.4s ease;
+    box-shadow: 1px 2px 53px 15px rgba(160, 159, 159, 0.5);
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    outline: none;
+    transition: all 0.4s ease;
+}
+
+.login-button {
+    width: 95%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.4s ease;
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+}
+
+.social-login {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.social-login>a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    width: 50%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s ease;
+}
+
+.forgot {
+    width: 50%;
+    font-size: 1.1rem;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.forgot:hover {
+    background-color: #007bffd8;
+}
+
+.social-login>a:hover {
+    background-color: #007bffd8;
+}
+
+.login-container::before,
+.login-container::after {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.login-container::before {
+    width: 170px;
+    height: 170px;
+    background: linear-gradient(135deg, #1e90ff, #00ced1);
+    top: -80px;
+    left: -80px;
+}
+
+.login-container::after {
+    width: 170px;
+    height: 170px;
+    background: linear-gradient(135deg, #ff4500, #ffa500);
+    bottom: -130px;
+    right: -80px;
+}
+
+input::placeholder {
+    color: white;
+    font-size: 1.1rem;
+}
+
+input:focus {
+    background-color: rgba(11, 11, 11, 0.506);
+    border: 2px solid #0777e8cf;
+}
+
+.login-box:hover {
+    box-shadow: 1px 2px 53px 15px rgba(160, 159, 159, 0.75);
+    transform: scale(1.01);
+}
