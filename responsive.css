@@ -66,6 +66,7 @@
         padding: 8px;
         width: 60%;
     }
+
     /* Products */
     body {
         grid-template-columns: 1fr;
@@ -93,9 +94,11 @@
         align-items: center;
         padding: 5px;
     }
-    .image-space{
+
+    .image-space {
         aspect-ratio: 1/1;
     }
+
     .product-image {
         height: 100%;
         width: 100%;
@@ -106,32 +109,41 @@
         width: 90%;
         height: 100%;
     }
-    .card-8 h3{
+
+    .card-8 h3 {
         line-height: 1.5;
     }
+
     .product-title {
         font-size: 0.9rem;
     }
-    .rating{
+
+    .rating {
         margin: 0px;
     }
+
     .rating-value {
         font-size: 0.9rem;
         padding: 5px;
     }
+
     .rating-count {
         font-size: 1rem;
     }
+
     .current-price {
         font-size: 1rem;
     }
+
     .original-price {
         font-size: 1rem;
     }
-    .discount{
+
+    .discount {
         font-size: 1rem;
     }
-    .market{
+
+    .market {
         font-size: 1rem;
     }
 }
@@ -186,7 +198,6 @@
 
     .login-box {
         padding: 10px;
-        height: 100%;
     }
 
     .login-container::before,
@@ -216,6 +227,7 @@
         padding: 8px;
         width: 80%;
     }
+
     /* products */
     body {
         grid-template-columns: 1fr;
@@ -252,29 +264,37 @@
     .product-details {
         width: 90%;
     }
+
     .product-title {
         font-size: 0.9rem;
     }
-    .rating{
+
+    .rating {
         margin: 0px;
     }
+
     .rating-value {
         font-size: 0.6rem;
         padding: 5px;
     }
+
     .rating-count {
         font-size: 0.7rem;
     }
+
     .current-price {
         font-size: 0.7rem;
     }
+
     .original-price {
         font-size: 0.7rem;
     }
-    .discount{
+
+    .discount {
         font-size: 0.8rem;
     }
-    .market{
+
+    .market {
         font-size: 0.7rem;
     }
 }
@@ -284,7 +304,6 @@
     /* login */
     .login-container {
         width: 90%;
-        height: 60%;
     }
 
     /* register */
