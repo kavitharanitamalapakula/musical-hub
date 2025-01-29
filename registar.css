@@ -83,3 +83,13 @@ input:focus{
     transform: scale(1.01);
     box-shadow: 10px 12px 53px 15px rgba(16, 23, 101, 0.769);
 }
+.login-button{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: #1884f0;
+    border-radius: 5px;
+}
+.login-button>:hover{
+    background-color: #0059B3;
+}

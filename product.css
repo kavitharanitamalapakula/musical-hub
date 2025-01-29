@@ -16,7 +16,8 @@ body {
 .back-ground {
     width: 100%;
     height: 100%;
-    background-image: url("https://img.freepik.com/free-vector/black-background-with-focus-spot-light_1017-27230.jpg?t=st=1736788563~exp=1736792163~hmac=1904d4041072b7b15cc8f1b8763b949ff1f40d0e4d87330acd9f4012b1e49591&w=996");
+    background-color: black;
+    background-image: url("");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -25,13 +26,22 @@ body {
     align-items: center;
     filter: grayscale(50%);
 }
-
+.back-ground>a{
+    text-decoration: none;
+    color: white;
+    align-self: flex-start;
+    margin: 10px;
+    font-size: 1.2rem;
+    background-color: cornflowerblue;
+    padding: 12px;
+    border-radius: 5px;
+}
 .back-ground>img {
     width: 80%;
     height: 70%;
     margin: 0 auto;
     filter: grayscale(50%);
-
+    opacity: 1;
 }
 
 .grid-container {

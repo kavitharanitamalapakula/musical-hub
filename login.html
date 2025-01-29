@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login Form</title>
   <link rel="stylesheet" href="./login.css">
   <link rel="stylesheet" href="./responsive.css">
+  <link rel="shortcut icon"
+    href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa6kyCu_b5clORnJiMgJ-vF1a57RArNcEneA&s"
+    type="image/x-icon">
   <script type="module" src="login.js" defer></script>
 </head>
 
@@ -21,10 +25,14 @@
 
         <label for="password">Password</label>
         <input type="password" id="password" name="password" placeholder="Password"
-        pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[\d])(?=.*[$%&#@]).{8,16}" required>
+          pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[\d])(?=.*[$%&#@]).{8,16}" required>
 
         <button type="submit" class="login-button" id="login">Log In</button>
-
+        <div class="demo">
+          <h3>Demo Creditials</h3>
+          <p>Email:demo@gmail.com</p>
+          <p>Password:Demo@123</p>
+        </div>
         <div class="social-login">
           <a href="#" class="forgot" id="reset">Forgot Password</a>
           <a href="./registar.html">
@@ -35,4 +43,5 @@
     </div>
   </div>
 </body>
+
 </html>
