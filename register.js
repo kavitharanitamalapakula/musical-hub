@@ -46,11 +46,11 @@ submit.addEventListener("click", function (event) {
   if (!passwordPattern.test(password)) {
     alert(
       "Invalid password format! Password must contain at least:\n" +
-        "- 1 lowercase letter\n" +
-        "- 1 uppercase letter\n" +
-        "- 1 digit\n" +
-        "- 1 special character ($, %, &, #, @)\n" +
-        "- Length between 8-16 characters."
+      "- 1 lowercase letter\n" +
+      "- 1 uppercase letter\n" +
+      "- 1 digit\n" +
+      "- 1 special character ($, %, &, #, @)\n" +
+      "- Length between 8-16 characters."
     );
     return;
   }
@@ -72,3 +72,6 @@ submit.addEventListener("click", function (event) {
       alert("Error: " + errorMessage);
     });
 });
+
+
+
